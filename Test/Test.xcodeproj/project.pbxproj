@@ -31,6 +31,8 @@
 		BACE421114E228E900777147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BACE421414E228E900777147 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		BACE421514E228E900777147 /* Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Test.1; sourceTree = "<group>"; };
+		BACE422C14E2439800777147 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		BACE422D14E2439800777147 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,8 @@
 				BACE421114E228E900777147 /* main.m */,
 				BACE421514E228E900777147 /* Test.1 */,
 				BACE421314E228E900777147 /* Supporting Files */,
+				BACE422C14E2439800777147 /* MyClass.h */,
+				BACE422D14E2439800777147 /* MyClass.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 				BACE421B14E228E900777147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
