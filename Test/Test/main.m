@@ -15,7 +15,10 @@ int main (int argc, const char * argv[])
         
         // insert code here...
         
-        NSLog(@"Hello, World!  From Lily");
+        NSLog(@"Hello, World!  From Lily 543");
+        
+        
+        NSLog(@"Art");
 
     
         
