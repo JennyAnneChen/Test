@@ -14,12 +14,10 @@ int main (int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"So What 123 to master again tututu");
-        int i=0;
-        for (int j=i; j<100; j++) {
-            j=j+1;
-            NSLog(@"%d",i+j);
-        }
+        
+        NSLog(@"Hello, World!");
+
+    
         
     }
     return 0;
