@@ -10,6 +10,7 @@
 		BACE420F14E228E900777147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACE420E14E228E900777147 /* Foundation.framework */; };
 		BACE421214E228E900777147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BACE421114E228E900777147 /* main.m */; };
 		BACE421614E228E900777147 /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BACE421514E228E900777147 /* Test.1 */; };
+		BACE424614E2454200777147 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BACE424514E2454200777147 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,8 +32,8 @@
 		BACE421114E228E900777147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BACE421414E228E900777147 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		BACE421514E228E900777147 /* Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Test.1; sourceTree = "<group>"; };
-		BACE422C14E2439800777147 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
-		BACE422D14E2439800777147 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		BACE424414E2454200777147 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		BACE424514E2454200777147 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +79,8 @@
 				BACE421114E228E900777147 /* main.m */,
 				BACE421514E228E900777147 /* Test.1 */,
 				BACE421314E228E900777147 /* Supporting Files */,
-				BACE422C14E2439800777147 /* MyClass.h */,
-				BACE422D14E2439800777147 /* MyClass.m */,
+				BACE424414E2454200777147 /* MyClass.h */,
+				BACE424514E2454200777147 /* MyClass.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -143,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACE421214E228E900777147 /* main.m in Sources */,
+				BACE424614E2454200777147 /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
