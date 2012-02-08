@@ -15,8 +15,8 @@ int main (int argc, const char * argv[])
         
         // insert code here...
         
-        int u;
-        NSLog(@"So What 123 to master again tututu");
+        NSLog(@"Hello, World!");
+
     
         
     }
